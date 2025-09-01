@@ -200,6 +200,7 @@ Use the chatbot to perform actions like:
 📦 Dependencies
 
 
+
 Python 3.8+
 
 Flask
@@ -213,7 +214,10 @@ sqlite3
 (See requirements.txt for full list)
 
 
+
+
 📌 Future Enhancements
+
 
 
 Voice-enabled chatbot
@@ -223,6 +227,8 @@ Multi-language support (English + regional)
 Fraud detection alerts
 
 Personalized financial recommendations
+
+
 
 
 👨‍💻 Author
