@@ -59,46 +59,6 @@ yaml
 
 ---
 
-## 🛠️ Installation & Setup
-
-1. **Clone / Extract the Project**
-   ```bash
-   git clone <repo_url>
-   cd bankbot_project/bankbot
-Create Virtual Environment (optional)
-
-bash
-
-(Copy code)
-
-python -m venv venv
-
-source venv/bin/activate        # On Linux/Mac
-
-venv\Scripts\activate           # On Windows
-
-Install Dependencies
-
-
-
-(Copy code)
-
-pip install -r requirements.txt
-
-
-Run the Flask App
-
-(Copy code)
-
-python app.py
-
-The server will start on http://127.0.0.1:5000/
-
-🚀 Usage
-Open the browser and go to http://127.0.0.1:5000/
-
-Login using the demo credentials (or add new entries in database.db)
-
 Use the chatbot to perform actions like:
 
 “Check my balance”
@@ -128,7 +88,6 @@ yes and give me the file to download and paste it
 ChatGPT said:
 
 Analyzed
-
 python
 
 
