@@ -185,7 +185,9 @@ bankbot/
 │ └── js/chat.js
 
 yaml
+
 Always show details
+
 Copy code
 
 --------
@@ -199,32 +201,46 @@ Copy code
 Create Virtual Environment (optional)
 
 bash
+
 Always show details
 
 Copy code
+
 python -m venv venv
+
 source venv/bin/activate         # On Linux/Mac
+
 venv\\Scripts\\activate          # On Windows
+
 Install Dependencies
 
 
 Copy code
+
 pip install -r requirements.txt
+
 Run the Flask App
 
 
 Copy code
+
 python app.py
+
 The server will start on http://127.0.0.1:5000/
 
 🚀 Usage
 
 Open the browser and go to http://127.0.0.1:5000/
+
 Login using the demo credentials (or add new entries in database.db)
 
+
 Use the chatbot to perform actions like:
+
 “Check my balance”
+
 “Transfer 200 to savings account”
+
 “Show last transactions”
 
 📸 Screenshots
@@ -247,9 +263,13 @@ Use the chatbot to perform actions like:
 📦 Dependencies
 
 Python 3.8+
+
 Flask
+
 scikit-learn
+
 pandas
+
 sqlite3
 
 (See requirements.txt for full list)
@@ -258,8 +278,11 @@ sqlite3
 📌 Future Enhancements
 
 Voice-enabled chatbot
+
 Multi-language support (English + regional)
+
 Fraud detection alerts
+
 Personalized financial recommendations
 
 
