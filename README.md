@@ -171,7 +171,7 @@ This project was developed as part of **Infosys Springboard 6.0 Internship (Mile
   - User dashboard showing balance, transactions, and cards
   - Interactive chatbot interface for queries
 
----
+-------
 
 ## 📂 Project Structure
 bankbot/
@@ -186,10 +186,9 @@ bankbot/
 
 yaml
 Always show details
-
 Copy code
 
----
+--------
 
 ## 🛠️ Installation & Setup
 
@@ -204,38 +203,32 @@ Always show details
 
 Copy code
 python -m venv venv
-source venv/bin/activate   # On Linux/Mac
-venv\\Scripts\\activate      # On Windows
+source venv/bin/activate         # On Linux/Mac
+venv\\Scripts\\activate          # On Windows
 Install Dependencies
 
-bash
-Always show details
 
 Copy code
 pip install -r requirements.txt
 Run the Flask App
 
-bash
-Always show details
 
 Copy code
 python app.py
 The server will start on http://127.0.0.1:5000/
 
 🚀 Usage
-Open the browser and go to http://127.0.0.1:5000/
 
+Open the browser and go to http://127.0.0.1:5000/
 Login using the demo credentials (or add new entries in database.db)
 
 Use the chatbot to perform actions like:
-
 “Check my balance”
-
 “Transfer 200 to savings account”
-
 “Show last transactions”
 
 📸 Screenshots
+
 1. NLU Training & Prediction
 ![alt text](<Screenshot 2025-08-31 190532.png>)
 
@@ -252,26 +245,23 @@ Use the chatbot to perform actions like:
 ![alt text](<Screenshot 2025-08-31 190859.png>)
 
 📦 Dependencies
+
 Python 3.8+
-
 Flask
-
 scikit-learn
-
 pandas
-
 sqlite3
 
 (See requirements.txt for full list)
 
+
 📌 Future Enhancements
+
 Voice-enabled chatbot
-
 Multi-language support (English + regional)
-
 Fraud detection alerts
-
 Personalized financial recommendations
+
 
 👨‍💻 Author
 Marre Narendar Karthikeya
