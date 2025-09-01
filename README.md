@@ -112,12 +112,7 @@ Fraud detection alerts
 
 Personalized financial recommendations
 
-👨‍💻 Author
-Marre Narendar Karthikeya
-Intern – Infosys Springboard 6.0
 
-pgsql
-Copy code
 
 ---
 
@@ -137,11 +132,14 @@ yes and give me the file to download and paste it
 ChatGPT said:
 
 Analyzed
-python
-Always show details
 
-Copy code
+python
+
+
+(Copy code)
+
 readme_content = """# BankBot – AI Chatbot for Banking FAQs
+
 
 ## 📌 Overview
 BankBot is an AI-powered chatbot designed to handle common banking queries such as **checking account balance, transferring money, and retrieving transaction history**.  
@@ -174,7 +172,9 @@ This project was developed as part of **Infosys Springboard 6.0 Internship (Mile
 -------
 
 ## 📂 Project Structure
+
 bankbot/
+
 │── app.py # Flask backend entry point
 │── nlu.py # NLU model for intent & entity extraction
 │── database.db # SQLite database
@@ -186,9 +186,8 @@ bankbot/
 
 yaml
 
-Always show details
 
-Copy code
+(Copy code)
 
 --------
 
@@ -200,42 +199,51 @@ Copy code
    cd bankbot_project/bankbot
 Create Virtual Environment (optional)
 
+
 bash
 
-Always show details
 
-Copy code
+(Copy code)
 
 python -m venv venv
 
+
 source venv/bin/activate         # On Linux/Mac
 
+
 venv\\Scripts\\activate          # On Windows
+
 
 Install Dependencies
 
 
-Copy code
+(Copy code)
+
 
 pip install -r requirements.txt
 
+
 Run the Flask App
 
+(Copy code)
 
-Copy code
 
 python app.py
 
+
 The server will start on http://127.0.0.1:5000/
+
 
 🚀 Usage
 
+
 Open the browser and go to http://127.0.0.1:5000/
 
-Login using the demo credentials (or add new entries in database.db)
+Login using the demo credentials  (or add new entries in database.db)
 
 
 Use the chatbot to perform actions like:
+
 
 “Check my balance”
 
@@ -243,7 +251,9 @@ Use the chatbot to perform actions like:
 
 “Show last transactions”
 
+
 📸 Screenshots
+
 
 1. NLU Training & Prediction
 ![alt text](<Screenshot 2025-08-31 190532.png>)
@@ -260,7 +270,9 @@ Use the chatbot to perform actions like:
 5. Chatbot in Action
 ![alt text](<Screenshot 2025-08-31 190859.png>)
 
+
 📦 Dependencies
+
 
 Python 3.8+
 
@@ -276,6 +288,7 @@ sqlite3
 
 
 📌 Future Enhancements
+
 
 Voice-enabled chatbot
 
