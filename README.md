@@ -18,7 +18,7 @@ This is a Flask-based banking chatbot web application with simple NLU (Natural L
    ```
    python app.py
    ```
-3. Open your browser at `http://localhost:5000`
+3. Open your browser at `http://127.0.0.1:5000/`
 
 ## Default Demo User
 - Email: demo@bank.com
@@ -33,8 +33,6 @@ This is a Flask-based banking chatbot web application with simple NLU (Natural L
 - `static/` - CSS/JS assets
 - `templates/` - HTML templates
 
-## License
-MIT License
 
 ## 📂 Project Structure
 bankbot/
