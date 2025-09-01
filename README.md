@@ -29,9 +29,9 @@ This is a Flask-based banking chatbot web application with simple NLU (Natural L
 - `nlu.py` - NLU logic (intent classification, entity extraction)
 - `database.db` - SQLite database
 - `dataset.csv` - Training data for NLU
-- `models/` - Trained intent model
-- `static/` - CSS/JS assets
-- `templates/` - HTML templates
+- `models` - Trained intent model
+- `static` - CSS/JS assets
+- `templates` - HTML templates
 
 
 ## 📂 Project Structure
