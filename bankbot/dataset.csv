@@ -1,0 +1,34 @@
+intent,text
+greet,hello
+greet,hi
+greet,hey there
+greet,good morning
+greet,good evening
+help,help
+help,what can you do
+help,show options
+balance,what is my balance
+balance,check account balance
+balance,how much money do I have
+balance,show available balance
+transactions,show my recent transactions
+transactions,show last transactions
+transactions,what did I spend recently
+transactions,show statement
+transfer,transfer 1000 to Ravi
+transfer,send 500 to John
+transfer,move 2500 rupees to Ankita
+transfer,send ₹1000 to mom
+transfer,transfer two thousand to Akash
+card_block,block my card
+card_block,i lost my card please block
+card_block,freeze my debit card
+card_block,unblock my card
+card_limit,what is my card limit
+card_limit,increase my card limit
+card_limit,decrease my card limit
+loan_info,show my loan details
+loan_info,how much loan is pending
+loan_info,loan balance
+logout,logout
+logout,log me out

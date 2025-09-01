@@ -1,0 +1,65 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="text-center my-4">
+  <h2>Welcome, {{ name }}</h2>
+  <p class="text-muted">Your personalized My Bank dashboard</p>
+</div>
+<div class="row g-3 mb-4 text-center">
+  <div class="col-md-3">
+    <div class="card shortcut">
+      <div class="card-body">
+        <div class="fs-2">🔥</div>
+        <h5>Balance</h5>
+        <p class="text-muted small">Check your account balance</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card shortcut">
+      <div class="card-body">
+        <div class="fs-2">📄</div>
+        <h5>Transactions</h5>
+        <p class="text-muted small">View your recent transactions</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card shortcut">
+      <div class="card-body">
+        <div class="fs-2">💳</div>
+        <h5>Cards</h5>
+        <p class="text-muted small">Manage your debit/credit cards</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <a class="card shortcut text-decoration-none" href="{{ url_for('chatbot') }}">
+      <div class="card-body">
+        <div class="fs-2">🤖</div>
+        <h5>Chatbot</h5>
+        <p class="text-muted small">Get instant help</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="card shadow-sm">
+  <div class="card-header bg-white">
+    <strong>Recent Transactions</strong>
+  </div>
+  <div class="table-responsive">
+    <table class="table mb-0">
+      <thead><tr><th>Date</th><th>Description</th><th class="text-end">Amount</th></tr></thead>
+      <tbody>
+        {% for row in tx %}
+          <tr>
+            <td>{{ row['tdate'] }}</td>
+            <td>{{ row['description'] }}</td>
+            <td class="text-end">{{ "+" if row['amount']>=0 else "" }}₹{{ "%.2f"|format(row['amount']) }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

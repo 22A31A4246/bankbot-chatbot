@@ -1,0 +1,26 @@
+/* Light dashboard styles */
+.shortcut { border-radius: 16px; }
+.shortcut:hover { box-shadow: 0 10px 24px rgba(0,0,0,.08); }
+
+.chat-window { height: 420px; overflow-y: auto; background: #f8fafc; }
+.bot-msg, .user-msg {
+  max-width: 80%;
+  padding: .6rem .8rem;
+  margin-bottom: .35rem;
+  border-radius: 12px;
+  white-space: pre-wrap;
+}
+.bot-msg { background: #e9f2ff; align-self: flex-start; }
+.user-msg { background: #d1fae5; margin-left: auto; }
+
+/* Dark login card to mimic mobile screenshot */
+.login-card {
+  width: 360px;
+  background: #0f1115;
+  color: #fff;
+  border: 1px solid #23262d;
+}
+.btn-gradient {
+  background: linear-gradient(90deg, #4f8cff, #7b5cff);
+  color: #fff;
+}
