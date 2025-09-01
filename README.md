@@ -122,7 +122,7 @@ This project was developed as part of **Infosys Springboard 6.0 Internship (Mile
    
 Create Virtual Environment (optional)
 
-(Copy code)
+(Copy codes)
 
 python -m venv venv
 
@@ -134,6 +134,8 @@ venv\\Scripts\\activate             # On Windows
 
 
 
+
+
 Install Dependencies
 
 
@@ -141,6 +143,8 @@ Install Dependencies
 
 
 pip install -r requirements.txt
+
+
 
 
 
