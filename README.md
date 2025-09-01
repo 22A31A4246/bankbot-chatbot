@@ -38,12 +38,19 @@ MIT License
 
 ## 📂 Project Structure
 bankbot/
+
 │── app.py # Flask backend entry point
+
 │── nlu.py # NLU model for intent & entity extraction
+
 │── database.db # SQLite database
+
 │── dataset.csv # Training dataset for intents
+
 │── requirements.txt # Dependencies
+
 │── static/ # Frontend assets
+
 │ ├── css/styles.css
 │ └── js/chat.js
 
@@ -61,20 +68,30 @@ Copy code
 Create Virtual Environment (optional)
 
 bash
-Copy code
+
+(Copy code)
+
 python -m venv venv
-source venv/bin/activate   # On Linux/Mac
-venv\Scripts\activate      # On Windows
+
+source venv/bin/activate        # On Linux/Mac
+
+venv\Scripts\activate           # On Windows
+
 Install Dependencies
 
-bash
-Copy code
+
+
+(Copy code)
+
 pip install -r requirements.txt
+
+
 Run the Flask App
 
-bash
-Copy code
+(Copy code)
+
 python app.py
+
 The server will start on http://127.0.0.1:5000/
 
 🚀 Usage
@@ -90,27 +107,6 @@ Use the chatbot to perform actions like:
 
 “Show last transactions”
 
-📦 Dependencies
-Python 3.8+
-
-Flask
-
-scikit-learn
-
-pandas
-
-sqlite3
-
-(See requirements.txt for full list)
-
-📌 Future Enhancements
-Voice-enabled chatbot
-
-Multi-language support (English + regional)
-
-Fraud detection alerts
-
-Personalized financial recommendations
 
 
 
@@ -197,21 +193,19 @@ yaml
    ```bash
    git clone <repo_url>
    cd bankbot_project/bankbot
+
+   
 Create Virtual Environment (optional)
-
-
-bash
-
 
 (Copy code)
 
 python -m venv venv
 
 
-source venv/bin/activate         # On Linux/Mac
+source venv/bin/activate            # On Linux/Mac
 
 
-venv\\Scripts\\activate          # On Windows
+venv\\Scripts\\activate             # On Windows
 
 
 Install Dependencies
