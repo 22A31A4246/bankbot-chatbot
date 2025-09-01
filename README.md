@@ -59,19 +59,6 @@ yaml
 
 ---
 
-Use the chatbot to perform actions like:
-
-“Check my balance”
-
-“Transfer 200 to savings account”
-
-“Show last transactions”
-
-
-
-
----
-
 👉 This README is professional and ready to add to your project.  
 
 Do you want me to also include **screenshots (outputs) in the README** (like chatbot UI, dashboard, NLU output) so that it looks like a demo-ready documentation? ​:contentReference[oaicite:0]{index=0}​
@@ -126,25 +113,6 @@ This project was developed as part of **Infosys Springboard 6.0 Internship (Mile
 
 -------
 
-## 📂 Project Structure
-
-bankbot/
-
-│── app.py # Flask backend entry point
-│── nlu.py # NLU model for intent & entity extraction
-│── database.db # SQLite database
-│── dataset.csv # Training dataset for intents
-│── requirements.txt # Dependencies
-│── static/ # Frontend assets
-│ ├── css/styles.css
-│ └── js/chat.js
-
-yaml
-
-
-(Copy code)
-
---------
 
 ## 🛠️ Installation & Setup
 
@@ -167,6 +135,7 @@ source venv/bin/activate            # On Linux/Mac
 venv\\Scripts\\activate             # On Windows
 
 
+
 Install Dependencies
 
 
@@ -176,7 +145,9 @@ Install Dependencies
 pip install -r requirements.txt
 
 
+
 Run the Flask App
+
 
 (Copy code)
 
